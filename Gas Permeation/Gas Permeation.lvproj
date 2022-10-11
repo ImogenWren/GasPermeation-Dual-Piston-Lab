@@ -49,6 +49,16 @@
 			</Item>
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
+		<Item Name="Sub VIs" Type="Folder">
+			<Item Name="DAQ Sub vis" Type="Folder">
+				<Item Name="Init DAQ Task.vi" Type="VI" URL="../Sub VI/Init DAQ Task.vi"/>
+				<Item Name="Take Mean of N Sample.vi" Type="VI" URL="../Sub VI/Take Mean of N Sample.vi"/>
+			</Item>
+			<Item Name="CSV Headings.vi" Type="VI" URL="../../../SUB VIs/CSV Headings.vi"/>
+			<Item Name="Generate Filepath.vi" Type="VI" URL="../../../SUB VIs/Generate Filepath.vi"/>
+			<Item Name="Get Current DateTime.vi" Type="VI" URL="../../../SUB VIs/Get Current DateTime.vi"/>
+			<Item Name="Numeric to CSV.vi" Type="VI" URL="../../../SUB VIs/Numeric to CSV.vi"/>
+		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
@@ -60,13 +70,10 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="CSV Headings.vi" Type="VI" URL="../../../SUB VIs/CSV Headings.vi"/>
-		<Item Name="Generate Filepath.vi" Type="VI" URL="../../../SUB VIs/Generate Filepath.vi"/>
-		<Item Name="Get Current DateTime.vi" Type="VI" URL="../../../SUB VIs/Get Current DateTime.vi"/>
-		<Item Name="Init DAQ Task.vi" Type="VI" URL="../Sub VI/Init DAQ Task.vi"/>
+		<Item Name="Generate CSV File &amp; Path with Headings.vi" Type="VI" URL="../Sub VI/Generate CSV File &amp; Path with Headings.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Numeric to CSV.vi" Type="VI" URL="../../../SUB VIs/Numeric to CSV.vi"/>
 		<Item Name="Simple_DAQ_PressureTime_Graph.vi" Type="VI" URL="../Simple_DAQ_PressureTime_Graph.vi"/>
+		<Item Name="Simple_DAQ_with_timing_loop.vi" Type="VI" URL="../Simple_DAQ_with_timing_loop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

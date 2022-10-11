@@ -72,6 +72,7 @@
 		</Item>
 		<Item Name="Generate CSV File &amp; Path with Headings.vi" Type="VI" URL="../Sub VI/Generate CSV File &amp; Path with Headings.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Sample Rate Trigger.vi" Type="VI" URL="../../../SUB VIs/Sample Rate Trigger.vi"/>
 		<Item Name="Simple_DAQ_PressureTime_Graph.vi" Type="VI" URL="../Simple_DAQ_PressureTime_Graph.vi"/>
 		<Item Name="Simple_DAQ_with_timing_loop.vi" Type="VI" URL="../Simple_DAQ_with_timing_loop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

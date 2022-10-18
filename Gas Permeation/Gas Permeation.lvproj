@@ -70,9 +70,12 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="Blink Test.vi" Type="VI" URL="../../../SUB VIs/Blink Test.vi"/>
 		<Item Name="Generate CSV File &amp; Path with Headings.vi" Type="VI" URL="../Sub VI/Generate CSV File &amp; Path with Headings.vi"/>
+		<Item Name="Logging Trigger.vi" Type="VI" URL="../../../SUB VIs/Logging Trigger.vi"/>
 		<Item Name="Looping Chart Array Helper.vi" Type="VI" URL="../../../SUB VIs/Looping Chart Array Helper.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="NAND Flip Flop.vi" Type="VI" URL="../../../SUB VIs/NAND Flip Flop.vi"/>
 		<Item Name="Sample Rate Trigger.vi" Type="VI" URL="../../../SUB VIs/Sample Rate Trigger.vi"/>
 		<Item Name="Simple_DAQ_PressureTime_Graph.vi" Type="VI" URL="../Simple_DAQ_PressureTime_Graph.vi"/>
 		<Item Name="Simple_DAQ_with_timing_loop.vi" Type="VI" URL="../Simple_DAQ_with_timing_loop.vi"/>

@@ -50,14 +50,23 @@
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="DAQ Sub vis" Type="Folder">
 				<Item Name="Init DAQ Single Sample.vi" Type="VI" URL="../Sub VI/Init DAQ Single Sample.vi"/>
 				<Item Name="Take Single Sample.vi" Type="VI" URL="../Sub VI/Take Single Sample.vi"/>
 			</Item>
 			<Item Name="CSV Headings.vi" Type="VI" URL="../../../SUB VIs/CSV Headings.vi"/>
+			<Item Name="Generate CSV File &amp; Path with Headings.vi" Type="VI" URL="../Sub VI/Generate CSV File &amp; Path with Headings.vi"/>
+			<Item Name="Numeric to CSV Format.vi" Type="VI" URL="../../../SUB VIs/Numeric to CSV Format.vi"/>
 			<Item Name="Generate Filepath.vi" Type="VI" URL="../../../SUB VIs/Generate Filepath.vi"/>
 			<Item Name="Get Current DateTime.vi" Type="VI" URL="../../../SUB VIs/Get Current DateTime.vi"/>
-			<Item Name="Numeric to CSV Format.vi" Type="VI" URL="../../../SUB VIs/Numeric to CSV Format.vi"/>
+			<Item Name="Square Clock Pulse subVI.vi" Type="VI" URL="../../../SUB VIs/Square Clock Pulse subVI.vi"/>
+			<Item Name="Looping Chart Array Helper.vi" Type="VI" URL="../../../SUB VIs/Looping Chart Array Helper.vi"/>
+			<Item Name="Sample Rate Trigger.vi" Type="VI" URL="../../../SUB VIs/Sample Rate Trigger.vi"/>
+			<Item Name="Write Numeric to CSV File.vi" Type="VI" URL="../../../SUB VIs/Write Numeric to CSV File.vi"/>
+			<Item Name="Square Clock DUPE subVI.vi" Type="VI" URL="../../../SUB VIs/Square Clock DUPE subVI.vi"/>
+			<Item Name="NAND Flip Flop.vi" Type="VI" URL="../../../SUB VIs/NAND Flip Flop.vi"/>
+			<Item Name="Blink Test.vi" Type="VI" URL="../../../SUB VIs/Blink Test.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -70,16 +79,9 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Blink Test.vi" Type="VI" URL="../../../SUB VIs/Blink Test.vi"/>
-		<Item Name="Generate CSV File &amp; Path with Headings.vi" Type="VI" URL="../Sub VI/Generate CSV File &amp; Path with Headings.vi"/>
-		<Item Name="Logging Trigger.vi" Type="VI" URL="../../../SUB VIs/Logging Trigger.vi"/>
-		<Item Name="Looping Chart Array Helper.vi" Type="VI" URL="../../../SUB VIs/Looping Chart Array Helper.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="NAND Flip Flop.vi" Type="VI" URL="../../../SUB VIs/NAND Flip Flop.vi"/>
-		<Item Name="Sample Rate Trigger.vi" Type="VI" URL="../../../SUB VIs/Sample Rate Trigger.vi"/>
 		<Item Name="Simple_DAQ_PressureTime_Graph.vi" Type="VI" URL="../Simple_DAQ_PressureTime_Graph.vi"/>
 		<Item Name="Simple_DAQ_with_timing_loop.vi" Type="VI" URL="../Simple_DAQ_with_timing_loop.vi"/>
-		<Item Name="Write Numeric to CSV File.vi" Type="VI" URL="../../../SUB VIs/Write Numeric to CSV File.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

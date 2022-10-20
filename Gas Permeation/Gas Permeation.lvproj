@@ -20,6 +20,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Icons" Type="Folder">
+			<Item Name="Gas Permeation.ico" Type="Document" URL="../Icon/Gas Permeation.ico"/>
+		</Item>
+		<Item Name="Old &amp; Test VIs" Type="Folder">
+			<Item Name="Simple_DAQ_PressureTime_Graph.vi" Type="VI" URL="../Simple_DAQ_PressureTime_Graph.vi"/>
+			<Item Name="Simple_DAQ_with_timing_loop.vi" Type="VI" URL="../Simple_DAQ_with_timing_loop.vi"/>
+		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Documentation Images" Type="Folder">
@@ -80,8 +87,6 @@
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Simple_DAQ_PressureTime_Graph.vi" Type="VI" URL="../Simple_DAQ_PressureTime_Graph.vi"/>
-		<Item Name="Simple_DAQ_with_timing_loop.vi" Type="VI" URL="../Simple_DAQ_with_timing_loop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -257,43 +262,51 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Timed Loop Reset DUPE.vi" Type="VI" URL="../../../SUB VIs/Timed Loop Reset DUPE.vi"/>
+			<Item Name="Timed Loop Reset.vi" Type="VI" URL="../../../SUB VIs/Timed Loop Reset.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Main Application" Type="EXE">
+			<Item Name="Gas Permeation Rig V1.0" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{51D186D8-2FD9-4F4B-8F36-40D68E57FFBC}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F8BAE070-8383-465E-800B-3DF9D752A65B}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{AE14BC19-B2E0-42FB-A425-59319FAB0D01}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{450A3010-9E61-42F8-AAB1-443906D9B4D3}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{96FCFFEE-92FF-41D7-8A5C-2E1B7D4F08B1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Main Application</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4BB7D758-AE3D-4088-96FD-26757F3732FB}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Gas Permeation Rig V1.0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Gas Permeation Rig V1.0</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9236DFC5-A1BE-45C5-93F4-A12737594CB8}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{165FB9C0-EF93-44FC-9576-32263A00B764}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Main.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/Main.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Gas Permeation Rig.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Gas Permeation Rig V1.0/Gas Permeation Rig.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Gas Permeation Rig V1.0/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/Gas Permeation.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{788530EC-4CA8-4752-A267-6D914C04AD47}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Main Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
-				<Property Name="TgtF_productName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{8D31CF1E-BFEE-4FAB-AC90-991853A95B09}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Main.exe</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Gas Permeation Rig V1.0</Property>
+				<Property Name="TgtF_internalName" Type="Str">Gas Permeation Rig V1.0</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">Gas Permeation Rig V1.0</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{32E4E0B0-7295-41E2-838D-E2652FDBD776}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Gas Permeation Rig.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

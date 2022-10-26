@@ -62,18 +62,12 @@
 				<Item Name="Init DAQ Single Sample.vi" Type="VI" URL="../Sub VI/Init DAQ Single Sample.vi"/>
 				<Item Name="Take Single Sample.vi" Type="VI" URL="../Sub VI/Take Single Sample.vi"/>
 			</Item>
-			<Item Name="CSV Headings.vi" Type="VI" URL="../../../SUB VIs/CSV Headings.vi"/>
 			<Item Name="Generate CSV File &amp; Path with Headings.vi" Type="VI" URL="../Sub VI/Generate CSV File &amp; Path with Headings.vi"/>
-			<Item Name="Numeric to CSV Format.vi" Type="VI" URL="../../../SUB VIs/Numeric to CSV Format.vi"/>
-			<Item Name="Generate Filepath.vi" Type="VI" URL="../../../SUB VIs/Generate Filepath.vi"/>
-			<Item Name="Get Current DateTime.vi" Type="VI" URL="../../../SUB VIs/Get Current DateTime.vi"/>
 			<Item Name="Square Clock Pulse subVI.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Square Clock Pulse subVI.vi"/>
-			<Item Name="Looping Chart Array Helper.vi" Type="VI" URL="../../../SUB VIs/Looping Chart Array Helper.vi"/>
-			<Item Name="Sample Rate Trigger.vi" Type="VI" URL="../../../SUB VIs/Sample Rate Trigger.vi"/>
-			<Item Name="Write Numeric to CSV File.vi" Type="VI" URL="../../../SUB VIs/Write Numeric to CSV File.vi"/>
+			<Item Name="Looping Chart Array Helper.vi" Type="VI" URL="../../../SUB VIs/File IO &amp; Paths/Looping Chart Array Helper.vi"/>
 			<Item Name="Square Clock DUPE subVI.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Square Clock DUPE subVI.vi"/>
 			<Item Name="NAND Flip Flop.vi" Type="VI" URL="../../../SUB VIs/NAND Flip Flop.vi"/>
-			<Item Name="Blink Test.vi" Type="VI" URL="../../../SUB VIs/Blink Test.vi"/>
+			<Item Name="Blink Test.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Blink Test.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -86,6 +80,7 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="CSV Second Checker.vi" Type="VI" URL="../Sub VI/CSV Second Checker.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -288,7 +283,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{165FB9C0-EF93-44FC-9576-32263A00B764}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Gas Permeation Rig.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Gas Permeation Rig V1/Gas Permeation Rig.exe</Property>
@@ -298,13 +293,31 @@
 				<Property Name="Destination[1].path" Type="Path">../Gas Permeation Rig V1/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/Gas Permeation.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{788530EC-4CA8-4752-A267-6D914C04AD47}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4DA47BC9-4DF8-4EF2-AEB3-D85C59BBDFFE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Sub VIs</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Support VIs</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Type Definitions</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Gas Permeation Rig V1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Gas Permeation Rig V1</Property>

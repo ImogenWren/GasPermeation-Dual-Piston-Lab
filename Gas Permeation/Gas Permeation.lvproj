@@ -67,11 +67,11 @@
 			<Item Name="Numeric to CSV Format.vi" Type="VI" URL="../../../SUB VIs/Numeric to CSV Format.vi"/>
 			<Item Name="Generate Filepath.vi" Type="VI" URL="../../../SUB VIs/Generate Filepath.vi"/>
 			<Item Name="Get Current DateTime.vi" Type="VI" URL="../../../SUB VIs/Get Current DateTime.vi"/>
-			<Item Name="Square Clock Pulse subVI.vi" Type="VI" URL="../../../SUB VIs/Square Clock Pulse subVI.vi"/>
+			<Item Name="Square Clock Pulse subVI.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Square Clock Pulse subVI.vi"/>
 			<Item Name="Looping Chart Array Helper.vi" Type="VI" URL="../../../SUB VIs/Looping Chart Array Helper.vi"/>
 			<Item Name="Sample Rate Trigger.vi" Type="VI" URL="../../../SUB VIs/Sample Rate Trigger.vi"/>
 			<Item Name="Write Numeric to CSV File.vi" Type="VI" URL="../../../SUB VIs/Write Numeric to CSV File.vi"/>
-			<Item Name="Square Clock DUPE subVI.vi" Type="VI" URL="../../../SUB VIs/Square Clock DUPE subVI.vi"/>
+			<Item Name="Square Clock DUPE subVI.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Square Clock DUPE subVI.vi"/>
 			<Item Name="NAND Flip Flop.vi" Type="VI" URL="../../../SUB VIs/NAND Flip Flop.vi"/>
 			<Item Name="Blink Test.vi" Type="VI" URL="../../../SUB VIs/Blink Test.vi"/>
 		</Item>
@@ -259,11 +259,17 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="CSV Headings.vi" Type="VI" URL="../../../SUB VIs/File IO &amp; Paths/CSV Headings.vi"/>
+			<Item Name="Generate Filepath.vi" Type="VI" URL="../../../SUB VIs/File IO &amp; Paths/Generate Filepath.vi"/>
+			<Item Name="Get Current DateTime.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Get Current DateTime.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Timed Loop Reset DUPE.vi" Type="VI" URL="../../../SUB VIs/Timed Loop Reset DUPE.vi"/>
-			<Item Name="Timed Loop Reset.vi" Type="VI" URL="../../../SUB VIs/Timed Loop Reset.vi"/>
+			<Item Name="Numeric to CSV Format.vi" Type="VI" URL="../../../SUB VIs/File IO &amp; Paths/Numeric to CSV Format.vi"/>
+			<Item Name="Sample Rate Trigger.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Sample Rate Trigger.vi"/>
+			<Item Name="Timed Loop Reset DUPE.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Timed Loop Reset DUPE.vi"/>
+			<Item Name="Timed Loop Reset.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Timed Loop Reset.vi"/>
+			<Item Name="Write Numeric to CSV File.vi" Type="VI" URL="../../../SUB VIs/File IO &amp; Paths/Write Numeric to CSV File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Gas Permeation Rig V1" Type="EXE">

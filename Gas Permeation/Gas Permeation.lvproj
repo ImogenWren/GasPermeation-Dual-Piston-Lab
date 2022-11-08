@@ -338,6 +338,49 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Gas Permeation Rig.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Gas Permiation Rig V2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{96DC9160-CB34-4030-BCC0-E7F0F06275EA}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{864B12EA-FD7F-43BB-847C-06E6236651A0}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E8384CB9-07E5-49AC-9697-91BE24864009}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Changed ID for external IO device</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Gas Permiation Rig V2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Gas Permiation Rig V2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5FE4F591-4CEE-44EA-850D-23C20FA82EC7}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Gas Permiation Rig.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Gas Permiation Rig V2/Gas Permiation Rig.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Gas Permiation Rig V2/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/Gas Permeation.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5F48B8B7-994E-4F44-9AB0-F0CCA2CBE0B6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Gas Permiation Rig V2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Gas Permiation Rig V2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">Gas Permiation Rig V2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{93C5B0A0-D5CF-4114-B63D-0E66E8371FD2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Gas Permiation Rig.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>

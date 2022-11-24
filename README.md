@@ -36,3 +36,5 @@ _Adding notes here on implementation as a reference_
 ![image](https://user-images.githubusercontent.com/97303986/203825895-7cfb44e2-e130-44fe-af37-1ffe8e0ef7fe.png)
 
 Here, two timing loops are used to seperatly trigger both sampling and logging of the datapoints. I think this topology can be refractored to work more seamlessly. See Muscle Actuator project for a new attempt at a similar implementation.
+
+For one, the data line can be shared to avoid the need for local variables. 
